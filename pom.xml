@@ -19,12 +19,12 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-7-218-releases</name>
-        <url>http://54.153.65.64:8081/artifactory/libs-release</url>
+        <url>http://172.31.7.218:8081/artifactory/libs-release</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-7-218-snapshots</name>
-        <url>http://54.153.65.64:8081/artifactory/libs-snapshot</url>
+        <url>http://172.31.7.218:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
   
@@ -45,13 +45,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>http://54.153.65.64:8081/artifactory/libs-release</url>
+          <url>http://172.31.7.218:8081/artifactory/libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>http://54.153.65.64:8081/artifactory/libs-snapshot</url>
+          <url>http://172.31.7.218:8081/artifactory/libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -61,13 +61,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>http://54.153.65.64:8081/artifactory/libs-release</url>
+          <url>http://172.31.7.218:8081/artifactory/libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>http://54.153.65.64:8081/artifactory/libs-snapshot</url>
+          <url>http://172.31.7.218:8081/artifactory/libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
