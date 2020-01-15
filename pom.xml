@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-7-218-releases</name>
+        <url>http://54.153.65.64:8081/artifactory/libs-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-7-218-snapshots</name>
+        <url>http://54.153.65.64:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
